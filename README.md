@@ -1,7 +1,7 @@
 # 🏨 Predicting Hotel Booking Cancellations
 ### A Proof-of-Value study for hotel revenue management — INSY 674, McGill MMA (Fall 2026)
 
-> **Team:** Group8 · **Members (GitHub):** Zijia Zhang ([@zhangaiyou07](https://github.com/zhangaiyou07)), Zhou Mo ([@MoZhou-vicky](https://github.com/MoZhou-vicky)), Yang Cassie ([@cass1eoo](https://github.com/cass1eoo)), Liu Zexi ([@zexisui](https://github.com/zexisui)), Liu Siyu ([@Siyu-Liu123](https://github.com/Siyu-Liu123))
+> **Team:** Group8 · **Members (GitHub):** Zijia Zhang ([@zhangaiyou07](https://github.com/zhangaiyou07)), Mo Zhou ([@MoZhou-vicky](https://github.com/MoZhou-vicky)), Cassie Yang ([@cass1eoo](https://github.com/cass1eoo)), Zexi Liu ([@zexisui](https://github.com/zexisui)), Siyu Liu ([@Siyu-Liu123](https://github.com/Siyu-Liu123))
 >
 > **Repository:** [github.com/zhangaiyou07/hotel-cancellation-prediction](https://github.com/zhangaiyou07/hotel-cancellation-prediction)
 
