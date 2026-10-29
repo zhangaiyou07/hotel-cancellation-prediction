@@ -1,7 +1,9 @@
-# Predicting Hotel Booking Cancellations
+# 🏨 Predicting Hotel Booking Cancellations
 ### A Proof-of-Value study for hotel revenue management — INSY 674, McGill MMA (Fall 2026)
 
-> **Team:** Group8 · **Members (GitHub):** _<name — @github-id>_, _<name — @github-id>_, _<name — @github-id>_, _<name — @github-id>_
+> **Team:** Group8 · **Members (GitHub):** Zijia Zhang ([@zhangaiyou07](https://github.com/zhangaiyou07)), Zhou Mo ([@MoZhou-vicky](https://github.com/MoZhou-vicky)), Yang Cassie ([@cass1eoo](https://github.com/cass1eoo)), Liu Zexi ([@zexisui](https://github.com/zexisui)), Liu Siyu ([@Siyu-Liu123](https://github.com/Siyu-Liu123))
+>
+> **Repository:** [github.com/zhangaiyou07/hotel-cancellation-prediction](https://github.com/zhangaiyou07/hotel-cancellation-prediction)
 
 **One-line summary:** using only information available **when a booking is created**, our tuned XGBoost model ranks cancellation risk on bookings from a *later* period with **ROC-AUC 0.840 (95% CI 0.829–0.852) vs 0.691 for today's rule of thumb**; contacting the 30% riskiest bookings would reach **55% of all cancellations with 74% precision** (the rule: 44% / 59%).
 
@@ -278,10 +280,12 @@ Nothing was tuned after this evaluation.
 * Portuguese bookings cancel 3× more often — partly real behaviour, partly a possible data-recording artefact.
 * Half of all cancellations happen 7+ weeks before arrival; only 7% on the last day.
 
-**Team contributions & cross-checks:** individual notebooks and reviews by team members shaped several decisions —
-the booking-time framing and the removal of post-booking columns, the model-visible duplicate grouping key, the
-cost-based threshold with sensitivity analysis, the de-duplicated control and bootstrap intervals, and forward-in-time
-validation for tuning. _[add names]_
+**Team contributions:** all five members of Group8 (Zijia Zhang, Zhou Mo, Yang Cassie, Liu Zexi, Liu Siyu) worked on
+the project together: we jointly discussed the problem framing and the model parameters, analysed the issues found in
+each other's notebooks, revised this notebook pipeline together, and built the presentation as a team. Individual
+notebooks and reviews shaped several key decisions — the booking-time framing and the removal of post-booking columns,
+the model-visible duplicate grouping key, the cost-based threshold with sensitivity analysis, the de-duplicated control
+and bootstrap intervals, and forward-in-time validation for tuning.
 
 ---
 
